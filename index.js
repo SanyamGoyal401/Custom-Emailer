@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 app.post("/mail", (req, res) => {
   const { to, subject, text, delay } = req.body;
   let mailOptions = {
-    from: "sanyamgoyal2859@gmail.com",
+    from: "course084@gmail.com",
     to: to,
     subject: subject,
     html: text,
